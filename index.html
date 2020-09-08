@@ -8,6 +8,7 @@
     <title>Tashkent Barbershop</title>
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Merriweather:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap"
         rel="stylesheet">
@@ -17,23 +18,33 @@
 <body>
     <header id="header">
         <div class="menu-main">
-            <a href="/index.html"><img src="img/tashkentbarbershop.svg" alt="Logo" class="menu-img" data-aos-duration="1000"
+            <a href="/index.html"><img src="img/tashkentbarbershop.svg" alt="" class="menu-img" data-aos-duration="1000"
                     data-aos="flip-left"></a>
             <nav class="navigation">
 
                 <div class="menu-list">
 
-                    <div class="menu-btn">
+                    <!-- <div class="menu-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
+                    <div class="menu-bar">
+                        <i class="fas fa-bars"></i>
+                    </div> -->
 
+                    <button class="hamburger hamburger--squeeze" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                        
+                    </button>
+                    
                     <ul class="menu" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-right">
                         <li><a class="menu-lists" href="/">home</a></li>
-                        <li><a class="menu-lists" href="../about-us/index.html">about us</a></li>
-                        <li><a class="menu-lists" href="../our-services/index.html">services</a></li>
-                        <li><a class="menu-lists" href="../contact-us/index.html">contact us</a></li>
+                        <li><a class="menu-lists" href="/about-us/index.html">about us</a></li>
+                        <li><a class="menu-lists" href="/services/index.html">services</a></li>
+                        <li><a class="menu-lists" href="/contact-us/index.html">contact us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -60,29 +71,25 @@
                 <div class="card">
                     <img src="img/avatar.jpg" alt="Avatar" style="width:100%" class="card-img">
                     <div class="container">
-                        <h4 class="customer-name">Zarina Ald</h4>
-                        <p class="customer-review">" I’ve been there few months ago, The place is very clean, new, and barbers are really friendly. Great job guys! 👍🏼
-                            "</p>
-                        <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEgpSSo2SjcwYLRSNaiwsEw2MjE1NTMzSLM0MzJPsTKoSDUwT0w0NTRNSzMySTJNTvYSLkkszshOzStRSEosSkotKs7ILwAAHqoW2A&q=tashkent+barbershop&oq=tashkent&aqs=chrome.2.69i60j46l3j69i60l4.3367j0j7&sourceid=chrome&ie=UTF-8#lrd=0x89c2455660f9627d:0xe07aa515ff24b5cc,1,,," 
-                        class="customer-read-more">read more <i class="icon-review fab fa-google"></i></a>
+                        <h4 class="customer-name">John Doe</h4>
+                        <p class="customer-review">" Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium accusamus mollitia sed illum. "</p>
+                        <a href="#" class="customer-read-more">read more <i class="icon-review fab fa-google"></i></a>
+
                     </div>
                 </div>
+
+
                 <div class="card">
                     <img src="img/avatar.jpg" alt="Avatar" style="width:100%" class="card-img">
                     <div class="container">
-                        <h4 class="customer-name">Rich A</h4>
-                        <p class="customer-review">" I had a great experience at Tashkent Barbershop which, 
-                            among other things, means that I ended up with an excellent haircut.  
-                            The shop is new & clean with modern equipment and supplies.  
-                            The sink is located at your chair, to make the washing of your hair seamless.  
-                            The stylists and owner are true professionals that run a top-notch shop.  The owner cut my hair... 
-                            he has experience styling hair in Manhattan... 
-                            which is not to say that this place is overly-fancy because you can get a basic haircut here.  
-                            For example, I got my hair cut for a job interview."</p>
-                        <a href="https://www.yelp.com/biz/tashkent-barbershop-brooklyn?hrid=dmlc2at_FLVcBNJiIVWwlw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)" 
-                        class="customer-read-more"> read more <i class="icon-review fab fa-yelp"></i></a>
+                        <h4 class="customer-name">John Doe</h4>
+                        <p class="customer-review">" Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium accusamus mollitia sed illum. "</p>
+                        <a href="#" class="customer-read-more">read more <i class="icon-review fab fa-yelp"></i></a>
                     </div>
                 </div>
+
                 <div class="card">
                     <img src="img/avatar.jpg" alt="Avatar" style="width:100%" class="card-img">
                     <div class="container">
@@ -129,6 +136,7 @@
             </section>
             <script src="js/aos.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
             <script src="js/main.js"></script>
 </body>
 

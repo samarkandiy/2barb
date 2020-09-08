@@ -4,7 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
-
+.hamburger{
+    display: none;
+}
 .video {
     margin-left: 20%;
     margin-bottom: 100px;
@@ -946,7 +948,7 @@ table.pricelist__table tr:last-child td {
         height: 70px;
     }
 
-    /* .menu-btn {
+    .menu-btn {
         display: block;
         width: 40px;
         cursor: pointer;
@@ -954,6 +956,7 @@ table.pricelist__table tr:last-child td {
         right: 40px;
         top: 60px;
     }
+
     .menu-btn span {
         display: block;
         margin-bottom: 10px;
@@ -961,13 +964,15 @@ table.pricelist__table tr:last-child td {
         height: 4px;
         border-radius: 20px;
     }
+
     ul li {
         margin-bottom: 20px;
     }
+
     .menu {
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 40vh;
         background: rgba(14, 13, 13, 0.95);
         margin-top: 40px;
         padding-top: 40px;
@@ -978,6 +983,8 @@ table.pricelist__table tr:last-child td {
         display: block;
         transition: all .5s;
     }
+
+
     .menu-lists {
         font-size: 24px;
         font-weight: 700;
@@ -987,7 +994,16 @@ table.pricelist__table tr:last-child td {
     }
     .menu-lists:hover{
         color: #b08b66;
-    } */
+    }
+    .hamburger{
+        float: right;
+        display: block;
+
+    }
+    
+    .menu{
+        display: none;
+    }
     .address {
         margin-left: 25px;
     }
