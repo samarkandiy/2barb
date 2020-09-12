@@ -1,5 +1,3 @@
-
-
 $('.hamburger, .menu').click(function () {
     if ($('.menu').is(':hidden')) {
         $('.menu').show('slideToggle');
@@ -14,8 +12,30 @@ $hamburger.on("click", function (e) {
     // Do something else, like open/close menu
 });
 
+var mySwiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
 
-// video slider
-function videoUrl(hmmmmmm) {
-    document.getElementById("slider").src = hmmmmmm;
-}
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+})
+
+var mySwiper = new Swiper('.swiper-container', {
+    autoplay: {
+        delay: 5000,
+    },
+});
