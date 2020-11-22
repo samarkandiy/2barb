@@ -841,7 +841,7 @@ table.pricelist__table tr:last-child td {
         right: 0;
         text-align: center;
         z-index: 5;
-        display: block;
+        /* display: block; */
         transition: all .5s;
     }
 
