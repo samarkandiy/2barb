@@ -256,7 +256,7 @@ body {
     background: url(../img/gal/img-1.jpg);
     animation: slide 50s infinite;
 }
-@keyframes slide{
+/* @keyframes slide{
     5%{
         background: url(../img/gal/img-1.jpg);
     }
@@ -317,7 +317,7 @@ body {
     100%{
         background: url(../img/gal/img-20.jpg);
     }
-}
+} */
 
 
 
@@ -1050,4 +1050,12 @@ table.pricelist__table tr:last-child td {
         .description-main {
             margin-bottom: 25px;
         }
+}
+.gallery{
+    margin-bottom: 70px;
+}
+
+.slick-slide img {
+    display: block;
+    width: 97%;
 }
