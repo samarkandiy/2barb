@@ -591,11 +591,16 @@ table.pricelist__table tr:last-child td {
 }
 .deals{
     margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
     font-size: 30px;
     font-weight: 400;
     font-family: "Merriweather", Sans-serif;
+    text-align: center;
+}
+.deals h1 span{
+    border-radius: 50%;
+    padding: 0 20px;
+    font-size: 80px;
+    font-weight: bold;
 }
 .give-call{
     text-align: center;
