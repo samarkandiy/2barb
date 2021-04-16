@@ -583,8 +583,9 @@ table.pricelist__table tr:last-child td {
     text-align: center;
 }
 .bonuses-paragraph{
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 15px;
+    text-align: center;
 }
 .bonuses-card-img{
     animation: tada 2s ease-in-out 0.5s infinite;
