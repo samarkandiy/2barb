@@ -770,7 +770,12 @@ table.pricelist__table tr:last-child td {
         line-height: 113px;
     }
 }
-
+@media (max-width: 640px){
+    .video2{
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
 @media (max-width: 769px) {
     .menu-img {
         width: 80px;
