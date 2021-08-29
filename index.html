@@ -4,379 +4,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tashkent Barbershop</title>
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Slick slider  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Icon  -->
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/hamburgers.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Merriweather:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
+    <!-- AOS animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Style file -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-200373000-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-200373000-1');
-</script>
 </head>
-
 <body>
+    <!-- Header  -->
     <header class="header">
         <div class="container">
-            <div class="menu-main">
-                <a href="/index.html"><img src="img/tashkentbarbershop.svg" alt="" class="menu-img"
-                        data-aos-duration="1000" data-aos="flip-left"></a>
-                <nav class="navigation">
-                    <div class="menu-list">
-                        <button class="hamburger hamburger--squeeze" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                        <ul class="menu" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-right">
-                            <li><a class="menu-lists" href="/">home</a></li>
-                            <li><a class="menu-lists" href="/about-us/index.html">about us</a></li>
-                            <li><a class="menu-lists" href="/services-us/index.html">services</a></li>
-                            <li><a class="menu-lists" href="/contact-us/index.html">contact us</a></li>
-                        </ul>
-                    </div>
+            <!-- Menu  -->
+            <div class="header-top">
+                <img class="curl curl-left" src="img/curl-right.svg" alt="">
+                <nav data-aos="fade-right" data-aos-duration="3000" class="menu">
+                    <a href="#" class="menu-link">home</a>
+                    <a href="#about-us" class="menu-link">&nbsp about us</a>
                 </nav>
+                <a data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"
+                    href="/index.html"><img src="img/tashkentbarbershop.svg" alt="" class="menu-logo"></a>
+                <nav data-aos="fade-left" data-aos-duration="3000" class="menu">
+                    <a href="#services" class="menu-link">services</a>
+                    <a href="#contact" class="menu-link">contact</a>
+                </nav>
+                <img class="curl curl-right" src="img/curl-left.svg" alt="">
             </div>
-            <div class="header-title" data-aos-delay="300" data-aos-duration="1200" data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
-                <h4 class="header-description">welcome to</h4>
-                <h2 class="header-main-title">Tashkent Barbershop</h2>
-                <button class="header-button"><a class="header-button-services" href="/services-us/index.html">
-                        how we do it</a></button>
+            <!-- About -->
+            <div class="header-container">
+                <h2 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="header-container-title">
+                    Tashkent</h2>
+                <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"
+                    class="header-container-subtitle">BARBERSHOP</h1>
+                <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="header-container-text">We
+                    are barbers who focused on experience of our visitors. We not concentrated on collecting numbers
+                    neither give you 10 minute poor service. We care about quality and satisfaction each of you. Your
+                    tips and help will show how you feel on our place. We Tashkent Barbers guarantee for your +25 minute
+                    relaxation.</p>
+                <a href="#contact"
+                    class="button header-container-button animate__animated animate__pulse animate__infinite">BOOK AN
+                    APPOINTMENT</a>
             </div>
         </div>
     </header>
-    <main class="main">
-        <!-- introduction -->
-        <div class="introducing">
-            <p class="introduction">Introducing</p>
-            <div class="video">
-                <!-- <video id="slider" autoplay="true" controls  playsinline>
-                    <source src="video/home-intro.mp4" type="video/mp4">
-                </video> -->
-                <iframe class="video2" width="600px" height="350px" src="https://www.youtube.com/embed/jvvM0p_icqg?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="card-title">
-            <p class="introduction">Customer reviews</p>
-        </div>
-
-        <!-- slider -->
-        <div class="cards">
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide" data-swiper-autoplay="3000">
-                        <div class="card">
-                            <div class="container">
-                                <div class="cus-name">
-                                    <h4 class="customer-name">~Rich A</h4>
-                                </div>
-                                <div class="cus-rev">
-                                    <p class="customer-review">" I had a great experience at Tashkent Barbershop which,
-                                        among other things, means that I ended up with an excellent haircut.
-                                        The shop is new & clean with modern equipment and supplies..."</p>
-                                </div>
-                                <div class="cus-read">
-                                    <a href="https://www.yelp.com/biz/tashkent-barbershop-brooklyn?hrid=dmlc2at_FLVcBNJiIVWwlw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-                                        class="customer-read-more"><img
-                                            src="https://img.icons8.com/color/56/000000/yelp.png" />
-                                    </a>
-                                </div>
-                            </div>
+    <!-- About-us -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row align-items-center about">
+                <div class="col-xl-6 col-lg6 about-pic">
+                    <div class="about-us-img">
+                        <div class="about-us-images">
+                            <img data-aos-easing="linear" data-aos-duration="1000" class="about-us-img-left"
+                                data-aos="flip-right" src="img/left-about.jpg" alt="">
+                            <img data-aos-easing="linear" data-aos-duration="1000" class="about-us-img-right"
+                                data-aos="flip-left" src="img/right-about.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="3000">
-                        <div class="card">
-                            <div class="container">
-                                <div class="cus-name">
-                                    <h4 class="customer-name">~Zarina Ald</h4>
-                                </div>
-                                <div class="cus-rev">
-                                    <p class="customer-review">" I’ve been there few months ago, The place is very
-                                        clean, new, and
-                                        barbers are really friendly. Great job guys! 👍🏼"</p>
-                                </div>
-                                <div class="cus-read">
-                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEgpSSo2SjcwYLRSNaiwsEw2MjE1NTMzSLM0MzJPsTKoSDUwT0w0NTRNSzMySTJNTvYSLkkszshOzStRSEosSkotKs7ILwAAHqoW2A&q=tashkent+barbershop&oq=&aqs=chrome.0.46j35i39l6.1170167j0j7&sourceid=chrome&ie=UTF-8#lrd=0x89c2455660f9627d:0xe07aa515ff24b5cc,1,,,"
-                                        class="customer-read-more"> <img
-                                            src="https://img.icons8.com/color/56/000000/google-logo.png" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="3000">
-                        <div class="card">
-                            <div class="container">
-                                <div class="cus-name">
-                                    <h4 class="customer-name">~Muradulla Safarov</h4>
-                                </div>
-                                <div class="cus-rev">
-                                    <p class="customer-review">" I offer you the best "Tashkent barbershop " , excellent
-                                        service, clean, tidy, human care and also healthy guys!!!"</p>
-                                </div>
-                                <div class="cus-read">
-                                    <a href="https://www.facebook.com/tashkent.barbershop" class="customer-read-more">
-                                        <img src="https://img.icons8.com/nolan/64/facebook-new.png" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="3000">
-                        <div class="card">
-                            <div class="container">
-                                <div class="cus-name">
-                                    <h4 class="customer-name">~Adam Sigl</h4>
-                                </div>
-                                <div class="cus-rev">
-                                    <p class="customer-review">" This place is AMAZING. They make you feel like you're
-                                        getting a shave in your own home. Go and see Louis. He'll take good care of you.
-                                        Excellent service."</p>
-                                </div>
-                                <div class="cus-read">
-                                    <a href="https://www.instagram.com/tashkent_barbershop/?hl=en"
-                                        class="customer-read-more"> <img
-                                            src="https://img.icons8.com/fluent/56/000000/instagram-new.png" />
-                                    </a>
-                                </div>
-                            </div>
+                        <div data-aos-easing="linear" data-aos-duration="1300" data-aos="flip-up" class="opening-hour">
+                            <img class="clock" src="img/clock.svg" alt="">
+                            <h3>Opening Hour:</h3>
+                            <p>Mon-Sun<br> (10.00 - 22.00)</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="description-main">
-            <h2 class="des-subtitle">Motto of Tashkent Barbershop</h2>
-            <p class="description">
-                We are barbers who focused on experience of our visitors.
-                We not concentrated on collecting numbers neither give you 10 minute poor service.
-                We care about quality and satisfaction each of you.
-                Your tips and help will show how you feel on our place.
-                We Tashkent Barbers guarantee for your +25 minute relaxation.
-            </p>
-            <a href="/about-us/index.html" class="learn-more">learn more</a>
-        </div>
-
-        <!-- <div class="gallery">
-            <p class="introduction">Gallery</p>
-            <div class="gallery-swiper">
-            </div>
-        </div> -->
-        <p class="introduction">Gallery</p>
-        <div class="gallery">
-            
-            <div class="item1"><img src="img/gal/img-1.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-2.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-3.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-4.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-5.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-6.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-7.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-8.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-9.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-10.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-11.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-12.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-13.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-14.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-15.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-16.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-17.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-18.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-19.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-20.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-21.jpg" alt=""></div>
-            <div class="item1"><img src="img/gal/img-22.jpg" alt=""></div>
-          </div>
-        <div class="services-tabs container">
-            <div class="services-bonuses">
-                <div class="promotions">
-                    <h2 class="bonuses">Lifetime Promotion</h2>
-                    <p class="promotion">Get every 10<sup>th</sup> FREE service Punch Card</p>
-                    <img class="bonuses-card-img" src="img/bonus/np1.jpg" width="250" height="120">
+                <div data-aos-easing="linear" data-aos-duration="1100" data-aos="zoom-in" class="col-xl-6 col-lg6">
+                    <div class="about-us-info">
+                        <div class="about-us-title mb-20px">
+                            <span>About Us</span>
+                            <h3>To make a long story short...
+                            </h3>
+                        </div>
+                        <p>Tashkent Barbershop is a classic upscale barbershop. We offer a variety of services, catering
+                            to everyone. Hounds is a gentleman’s shop, reminiscent of the classic barbershop. We are
+                            striving to bring the memories back, with solely the clientele in mind. People pay for
+                            quality – Hounds is where you will get it.
+                            We are barbers who love our craft, providing top notch service that helps men Stay Sharp.
+                        </p>
+                    </div>
                 </div>
-                <!-- <div class="deals">
-                    <h1 class="call-animation">Every Tuesday and Wednesday haircut is <br><span class="bonuses">$18</span></h1>
-                </div> -->
-                <!-- <div>
-                    <p class="bonuses-paragraph">🔔Promotions are NOT available for holidays🔔</p>
-                </div> -->
             </div>
-            <div class="tab">
-                <button class="tablinks" onclick="openService(event, 'Haircut')" id="defaultOpen">HAIRCUT
-                    SERVICES</button>
-                <button class="tablinks" onclick="openService(event, 'Wedding')">WEDDING SERVICES</button>
+            <div class="about-video">
+                <video autoplay muted loop
+                    src="video/home-intro.mp4"></video>
             </div>
-
-            <div id="Haircut" class="tabcontent">
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="services-container">
+                <div data-aos-easing="linear" data-aos-duration="2000" data-aos="zoom-in" class="services-title">
+                    <span>Services</span>
+                    <h3>We cut hair, not corners.</h3>
+                    <p>First-rate services in haircuts, hot towel shaves, hair treatments, and beard trims.
+                        Witty quips and good conversations come standard. Appointment only, walk-ins by chance.</p>
+                </div>
                 <div class="services-list">
-                    <table class="pricelist__table">
-                        <tbody>
-                            <tr>
-                                <td>Haircuts</td>
-                                <td>$23.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Skin Fade</td>
-                                <td>$25.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Children's Cut</td>
-                                <td>$17.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Shape Up</td>
-                                <td>$13.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Senior Citizen</td>
-                                <td>$16.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Hot Towel Shave</td>
-                                <td>$27.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Beard Trim</td>
-                                <td>$17.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Hair Color</td>
-                                <td>$25.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Beard Color</td>
-                                <td>$15.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Hair Wash</td>
-                                <td>$5.00 </td>
-                            </tr>
-                            <tr>
-                                <td>Full Washed & Disinfect Cape</td>
-                                <td>$2.00 </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
+                    <div class="price">
+                        <h2><span>#</span>1</h2>
+                        <h3>Haircuts</h3>
+                        <p>$23</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>2</h2>
+                        <h3>Skin Fade</h3>
+                        <p>$25</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>3</h2>
+                        <h3>Children's Cut</h3>
+                        <p>$17</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>4</h2>
+                        <h3>Shape Up</h3>
+                        <p>$13</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>5</h2>
+                        <h3>Senior Citizen</h3>
+                        <p>$16</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>6</h2>
+                        <h3>Hot Towel Shave</h3>
+                        <p>$27</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>7</h2>
+                        <h3>Beard Trim</h3>
+                        <p>$17</p>
+                    </div>
+                    <div  class="price">
+                        <h2><span>#</span>8</h2>
+                        <h3>Hair Color</h3>
+                        <p>$25</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>9</h2>
+                        <h3>Beard Color</h3>
+                        <p>$15</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>10</h2>
+                        <h3>Hair Wash</h3>
+                        <p>$5</p>
+                    </div>
+                    <div class="price">
+                        <h2><span>#</span>11</h2>
+                        <h3>Full Washed & Disinfect Cape</h3>
+                        <p>$2</p>
+                    </div>
                 </div>
             </div>
-            <div id="Wedding" class="tabcontent">
-                <div class="services-list">
-                    <table class="pricelist__table">
-                        <tbody>
-                            <tr>
-                                <td>Hair Trim</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Beard Trim</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Facial Mask</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Skin Cleaning</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Skin Tanning</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Hair Styling</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td class="all-money">TOTAL</td>
-                                <td class="all-money">$150.00 </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="wedding-title-price">*All services included TOTAL price. Only for Wedding Services!</p>
-                </div>
+            <div data-aos-easing="linear" data-aos-duration="2500" data-aos="zoom-in"
+                class="services-title gallery-title">
+                <span>Gallery</span>
+                <h3>Our Professional Barbers' work</h3>
             </div>
-
-            <div class="give-call">
-                <h2 class="call-title">Give us a call</h2>
-                <div class="call-animation">
-                    <a href="tel:+1-917-770-5939" class="call-num">(917) 770-5939</a>
-                </div>
+            <div class="gallery">
+                <div class="item1"><img src="img/gal/img-1.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-2.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-3.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-4.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-5.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-6.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-7.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-8.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-9.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-10.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-11.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-12.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-13.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-14.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-15.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-16.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-17.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-18.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-19.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-20.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-21.jpg" alt=""></div>
+                <div class="item1"><img src="img/gal/img-22.jpg" alt=""></div>
             </div>
         </div>
-        <div class="graphic container">
-            <h2 class="graphic-title home-grapic-title">We are working until late time</h2>
-            <div class="time-day">
-                <p class="time">10AM - 10PM <br>7 DAYS A WEEK</p>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div data-aos-easing="linear" data-aos-duration="2700" data-aos="zoom-in"
+                class="services-title contact-title">
+                <span>Contact</span>
+                <h3>Still have questions?</h3>
             </div>
-        </div>
-        <div class="contact-us-map container">
-            <div class="map-responsive">
+            <div class="contact-us-main">
+                <div class="form">
+                    <div class="contact-us-info">
+                        <h3 class="title">Let's get in touch</h3>
+                        <p class="text">
+                            Still have questions? Do not hesitate to contact us!
+                        </p>
+                        <div class="info">
+                            <div class="information">
+                                <i class="icon fas fa-map-marker-alt"></i>
+                                <p>1809 Avenue M
+                                    Brooklyn, NY
+                                    11230</p>
+                            </div>
+                            <div class="information">
+                                <i class="icon far fa-envelope"></i>
+                                <a href="mailto:tashbarber@gmail.com">tashbarber@gmail.com</a>
+                            </div>
+                            <div class="information">
+                                <i class="icon fas fa-phone-alt"></i>
+                                <a href="tel:+19177705939">(917) 770-5939</a>
+                            </div>
+                            <div class="information">
+                                <i class="icon fas fa-table"></i>
+                                <p>7 days a week<br> 10am - 10pm</p>
+                            </div>
+                        </div>
+                        <div class="social-media">
+                            <p>Connect with us :</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/tashkent.barbershop">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.yelp.com/biz/tashkent-barbershop-brooklyn">
+                                    <i class="fab fa-yelp"></i>
+                                </a>
+                                <a href="https://www.instagram.com/tashkent_barbershop/?hl=en">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEgpSSo2SjcwYLRSNaiwsEw2MjE1NTMzSLM0MzJPsTKoSDUwT0w0NTRNSzMySTJNTvYSLkkszshOzStRSEosSkotKs7ILwAAHqoW2A&q=tashkent+barbershop&oq=&aqs=chrome.0.46j35i39l5j46j69i59.17611519j0j15&sourceid=chrome&ie=UTF-8">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+                        <form action="index.html" autocomplete="off">
+                            <h3 class="title">Contact us</h3>
+                            <div class="input-container">
+                                <input type="text" name="name" class="input" />
+                                <label for="">Username</label>
+                                <span>Username</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="email" name="email" class="input" />
+                                <label for="">Email</label>
+                                <span>Email</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="tel" name="phone" class="input" />
+                                <label for="">Phone</label>
+                                <span>Phone</span>
+                            </div>
+                            <div class="input-container textarea">
+                                <textarea name="message" class="input"></textarea>
+                                <label for="">Message</label>
+                                <span>Message</span>
+                            </div>
+                            <input type="submit" value="Send" class="btn" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="contact-blocks">
+                <div class="contact-info">
+                    <div data-aos-easing="linear"
+                    data-aos-duration="1500" data-aos="fade-right" class="location">
+                        <p>
+                            1809 Avenue M <br>
+                            Brooklyn, NY<br>
+                            11230
+                        </p>
+                        <a class="phone" href="tel:9177705939">(917) 770-5939</a>
+                        <div class="social">
+                            <a href="https://www.facebook.com/tashkent.barbershop">Facebook</a>
+                            <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEgpSSo2SjcwYLRSNaiwsEw2MjE1NTMzSLM0MzJPsTKoSDUwT0w0NTRNSzMySTJNTvYSLkkszshOzStRSEosSkotKs7ILwAAHqoW2A&q=tashkent+barbershop&oq=&aqs=chrome.0.46j35i39l5j46j69i59.17611519j0j15&sourceid=chrome&ie=UTF-8">Google</a><br>
+                            <a href="https://www.yelp.com/biz/tashkent-barbershop-brooklyn">Yelp</a>
+                            <a href="https://www.instagram.com/tashkent_barbershop/?hl=en">Instagram</a>
+                        </div>
+                    </div>
+                    <div data-aos-easing="linear"
+                    data-aos-duration="1500" data-aos="fade-right" class="timetable">
+                        <p>MON: 10 am - 10 pm</p>
+                        <p>TUES: 10 am - 10 pm</p>
+                        <p>WED: 10 am - 10 pm</p>
+                        <p>THURS: 10 am - 10 pm</p>
+                        <p>FRI: 10 am - 10 pm</p>
+                        <p>SAT: 10 am - 10 pm</p>
+                        <p>SUN: 10 am - 10 pm</p>
+                    </div> 
+                </div>
+            </div> -->
+            <div data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="2500" class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.515268275579!2d-73.9590481850987!3d40.61851725126709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244b8d9e70e3f%3A0xf8c342b398306515!2zMTgwOSBBdmVudWUgTSwgQnJvb2tseW4sIE5ZIDExMjMwLCDQodCo0JA!5e0!3m2!1sru!2s!4v1598510332301!5m2!1sru!2s"
-                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                </iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5196291634866!2d-73.9587642066226!3d40.61842105663945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455660f9627d%3A0xe07aa515ff24b5cc!2sTashkent%20Barbershop!5e0!3m2!1sru!2str!4v1612780914399!5m2!1sru!2str"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
-    </main>
-
-    <footer id="footer">
-        <div class="contact container">
-            <div class="address">
-                <h2 class="address-title">ADDRESS</h2>
-                <p class="address-subtitle">1809 Avenue M <br> Brooklyn, NY <br>
-                    11230</p>
-            </div>
-            <div class="hours">
-                <h2 class="address-title">HOURS</h2>
-                <p class="address-subtitle">9am - 10pm</p>
-                <p class="address-subtitle">7 days a week</p>
-            </div>
-            <div class="phone">
-                <h2 class="address-title">PHONE</h2>
-                <p class="address-subtitle">(917) 770-5939</p>
-                <div class="icons">
-                    <a href="https://www.facebook.com/tashkent.barbershop"><i class="icon fab fa-facebook"></i></a>
-                    <a
-                        href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEgpSSo2SjcwYLRSNaiwsEw2MjE1NTMzSLM0MzJPsTKoSDUwT0w0NTRNSzMySTJNTvYSLkkszshOzStRSEosSkotKs7ILwAAHqoW2A&q=tashkent+barbershop&oq=&aqs=chrome.0.46j35i39l5j46j69i59.17611519j0j15&sourceid=chrome&ie=UTF-8"><i
-                            class="icon fab fa-google"></i></a>
-                    <a href="https://www.yelp.com/biz/tashkent-barbershop-brooklyn"><i class="icon fab fa-yelp"></i></a>
-                    <a href="https://www.instagram.com/tashkent_barbershop/?hl=en"><i
-                            class="icon fab fa-instagram"></i></a>
+    </section>
+    <hr>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <a href="/index.html">
+                            <img src="img/tashkentbarbershop.svg" alt="" style="width: 60px;"></a>
+                    </div>
+                    <div class="footer-text">
+                        <p>Tashkent Barbershop. 2021 All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p>Website Design & Development by <a href="https://novateg.com/">Novateg</a></p>
                 </div>
             </div>
-        </div>
-        <div class="copyright">
-            <p class="copy-text"> <i>All Rights Reserved &copy; 2020.</i> <a class="novateg-style"
-                    href="https://novateg.com/"> &nbsp; <strong><span class="nov-style">NOVATEG</span> &nbsp;
-                        Group</strong></a></p>
         </div>
     </footer>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/aos.js"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <!-- Jquery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Script file -->
+    <script src="js/script.js"></script>
 </body>
-
 </html>
